@@ -16,6 +16,31 @@ public class LoginController {
         return"/index";
     }
 
+    @RequestMapping({"/components-blog-posts"})
+    public String cbp(){
+        return"/components-blog-posts";
+    }
+    @RequestMapping({"/add-new-post"})
+    public String anp(){
+        return"/add-new-post";
+    }
+    @RequestMapping({"/form-components"})
+    public String fc(){
+        return"/form-components";
+    }
+    @RequestMapping({"/tables"})
+    public String tables(){
+        return"/tables";
+    }
+    @RequestMapping({"/user-profile-lite"})
+    public String upl(){
+        return"/user-profile-lite";
+    }
+    @RequestMapping({"/errors"})
+    public String errors(){
+        return"/errors";
+    }
+
     @RequestMapping("/login")
     public String login(HttpServletRequest request, Map<String, Object> map) throws Exception{
         System.out.println("HomeController.login()");
