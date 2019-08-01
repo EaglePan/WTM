@@ -2,15 +2,248 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11c01b9d-d37c-425e-9166-4d5892d6912e" name="Default Changelist" comment="登录页面提交">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wtm_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wtm_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wtm/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wtm/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add-new-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-new-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/components-blog-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/components-blog-posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/errors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/form-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form-components.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/avatars/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/avatars/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/avatars/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/avatars/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/avatars/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/avatars/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/avatars/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/avatars/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/content-management/9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/content-management/9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/login/backgroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/login/backgroud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/login/emil.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/login/emil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/login/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/login/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/login/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/login/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo-danger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo-info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo-secondary.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo-success.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo-warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/shards-dashboards-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/s.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-blog-new-post.1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-blog-new-post.1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-blog-overview.1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-blog-overview.1.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-blog-overview.1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-components-overview.1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-components-overview.1.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app/app-components-overview.1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/app/app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/extras.1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/extras.1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/shards-dashboards.1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/shards-dashboards.1.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/shards-dashboards.1.1.0.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/shards-dashboards.1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/scripts/shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/danger.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/danger.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/danger.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/danger.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/info.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/info.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/info.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/info.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/secondary.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/secondary.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/secondary.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/secondary.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/success.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/success.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/success.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/success.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/warning.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/warning.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/accents/warning.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/accents/warning.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/extras.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/extras.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_custom-sliders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_custom-sliders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/accent-variations/danger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/accent-variations/danger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/accent-variations/info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/accent-variations/info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/accent-variations/secondary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/accent-variations/secondary.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/accent-variations/success.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/accent-variations/success.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/accent-variations/warning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/accent-variations/warning.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/blocks/_main-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/blocks/_main-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/blocks/_main-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/blocks/_main-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/blocks/_main-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/blocks/_main-navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/blocks/_main-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/blocks/_main-sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/blocks/_page-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/components/_card-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/components/_card-post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/components/_error.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/components/_error.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/plugins/_quill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/plugins/_quill.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/shards-dashboards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/shards-dashboards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/templates/_blog-add-new-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/templates/_blog-add-new-post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/templates/_blog-overview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/templates/_blog-overview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/templates/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/templates/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/utilities/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/utilities/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/scss/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/shards-dashboards.1.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/shards-dashboards.1.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/shards-dashboards.1.1.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/statics/styles/shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user-profile-lite.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user-profile-lite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wtm/WtmApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wtm/WtmApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wtm.WtmApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.wtm.WtmApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wtm/WtmApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wtm/WtmApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wtm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/wtm.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wtm/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/wtm/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wtm/WEB-INF/classes/com/wtm/WtmApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wtm/WEB-INF/classes/com/wtm/WtmApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/add-new-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/components-blog-posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/errors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/form-components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/avatars/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/avatars/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/avatars/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/avatars/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/content-management/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo-danger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo-info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo-secondary.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo-success.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/images/shards-dashboards-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-blog-new-post.1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-blog-new-post.1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-blog-overview.1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-blog-overview.1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-components-overview.1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/app/app-components-overview.1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/extras.1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/shards-dashboards.1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/shards-dashboards.1.1.0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/scripts/shards-dashboards.1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/danger.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/danger.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/info.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/info.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/secondary.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/secondary.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/success.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/success.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/warning.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/accents/warning.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/extras.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_custom-sliders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/accent-variations/danger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/accent-variations/info.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/accent-variations/secondary.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/accent-variations/success.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/accent-variations/warning.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/blocks/_main-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/blocks/_main-footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/blocks/_main-navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/blocks/_main-sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/blocks/_page-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/components/_card-post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/components/_error.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/plugins/_quill.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/shards-dashboards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/templates/_blog-add-new-post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/templates/_blog-overview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/templates/_common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/utilities/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/shards-dashboards.1.1.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/styles/shards-dashboards.1.1.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wtm/user-profile-lite.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wtm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wtm.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +252,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/wtm/config/ShiroConfig.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,20 +286,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564035457317" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot-Shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\resources\static\statics" />
       <recent name="E:\idea_workspace\MyLab\wtm\src\main\webapp" />
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wtm.common.userInfo.dao" />
+      <recent name="com.wtm.common.userInfo.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\resources\static" />
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\resources\templates" />
       <recent name="E:\idea_workspace\MyLab\wtm\src\main\webapp" />
-      <recent name="E:\idea_workspace\MyLab\wtm\src\main\webapp\scripts" />
-      <recent name="E:\idea_workspace\MyLab\wtm\src\main\webapp\images\login" />
-      <recent name="E:\idea_workspace\MyLab\wtm\src\main\webapp\WEB-INF" />
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\java\com\wtm\common\userInfo\" />
+      <recent name="E:\idea_workspace\MyLab\wtm\src\main\java\com\wtm\common\userInfo\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,7 +371,9 @@
       <updated>1564025388819</updated>
       <workItem from="1564025391648" duration="5868000" />
       <workItem from="1564553712213" duration="1020000" />
-      <workItem from="1564561114763" duration="4483000" />
+      <workItem from="1564561114763" duration="9191000" />
+      <workItem from="1564630617710" duration="2049000" />
+      <workItem from="1564633521296" duration="6761000" />
     </task>
     <task id="LOCAL-00001" summary="登录页面提交">
       <created>1564561784770</created>
@@ -127,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564561784770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="登录页面提交">
+      <created>1564567221512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564567221512</updated>
+    </task>
+    <task id="LOCAL-00003" summary="融入shiro">
+      <created>1564635130746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564635130746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +417,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录页面提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页面提交" />
+    <MESSAGE value="融入shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="融入shiro" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wtm/config/MyShiroRealm.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wtm/common/userInfo/controller/LoginController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
