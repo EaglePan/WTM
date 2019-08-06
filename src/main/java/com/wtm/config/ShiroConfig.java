@@ -1,11 +1,13 @@
 package com.wtm.config;
 
+import com.wtm.config.redis.ShiroRedisCacheManager;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 
 import java.util.LinkedHashMap;
@@ -15,7 +17,7 @@ import java.util.Properties;
 @Configuration
 public class ShiroConfig {
 	@Bean
-	public ShiroFilterFactoryBean shirFilter(org.apache.shiro.mgt.SecurityManager securityManager) {
+	public ShiroFilterFactoryBean shiroFilter(org.apache.shiro.mgt.SecurityManager securityManager) {
 		System.out.println("ShiroConfiguration.shirFilter()");
 
 		//拦截器.
@@ -65,11 +67,18 @@ public class ShiroConfig {
 
 
 	@Bean
-	public org.apache.shiro.mgt.SecurityManager securityManager(){
+	public org.apache.shiro.mgt.SecurityManager securityManager(RedisTemplate<Object, Object> template){
 		DefaultWebSecurityManager securityManager =  new DefaultWebSecurityManager();
 		securityManager.setRealm(myShiroRealm());
+		//配置redis缓存
+		securityManager.setCacheManager(cacheManager(template));
 		return securityManager;
 	}
+
+	private ShiroRedisCacheManager cacheManager(RedisTemplate template){
+		return new ShiroRedisCacheManager(template);
+	}
+
 
 	/**
 	 *  开启shiro aop注解支持.
