@@ -6,6 +6,7 @@ import org.apache.shiro.cache.CacheException;
 import org.springframework.data.redis.core.RedisTemplate;
 
 public class ShiroRedisCacheManager extends AbstractCacheManager {
+
     private RedisTemplate<byte[],byte[]> redisTemplate;
 
     public ShiroRedisCacheManager(RedisTemplate redisTemplate){

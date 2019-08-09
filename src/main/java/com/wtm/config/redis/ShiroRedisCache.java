@@ -1,11 +1,11 @@
 package com.wtm.config.redis;
 
 import com.wtm.utils.SerializeUtil;
-import org.apache.shiro.cache.Cache;
-import org.apache.shiro.cache.CacheException;
+import org.apache.shiro.cache.*;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 public class ShiroRedisCache<K,V> implements Cache<K,V> {
     private RedisTemplate redisTemplate;
@@ -45,7 +45,8 @@ public class ShiroRedisCache<K,V> implements Cache<K,V> {
         }
 
         byte[] bytes = getBytesKey(k);
-        redisTemplate.opsForValue().set(bytes, v);
+        redisTemplate.opsForValue().set(bytes, v,300, TimeUnit.SECONDS);//增加超时
+        //redisTemplate.opsForValue().set(bytes, v);
         return v;
     }
 
