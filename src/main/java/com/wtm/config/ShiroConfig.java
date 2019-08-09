@@ -1,11 +1,20 @@
 package com.wtm.config;
 
+import com.wtm.config.redis.ShiroRedisCacheManager;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.servlet.SimpleCookie;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.crazycake.shiro.RedisCacheManager;
+import org.crazycake.shiro.RedisManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 
 import java.util.LinkedHashMap;
@@ -14,8 +23,13 @@ import java.util.Properties;
 
 @Configuration
 public class ShiroConfig {
+
+	@Autowired
+	private RedisTemplate redisTemplate;
+
+
 	@Bean
-	public ShiroFilterFactoryBean shirFilter(org.apache.shiro.mgt.SecurityManager securityManager) {
+	public ShiroFilterFactoryBean shiroFilter(org.apache.shiro.mgt.SecurityManager securityManager) {
 		System.out.println("ShiroConfiguration.shirFilter()");
 
 		//拦截器.
@@ -46,6 +60,8 @@ public class ShiroConfig {
 	 * 凭证匹配器
 	 * （由于我们的密码校验交给Shiro的SimpleAuthenticationInfo进行处理了
 	 * ）
+	 *
+
 	 * @return
 	 */
 	@Bean
@@ -64,12 +80,40 @@ public class ShiroConfig {
 	}
 
 
+	/**
+	 * 在shiroConfig中设置注入自定义的缓存管理器
+	 * @return
+	 */
 	@Bean
 	public org.apache.shiro.mgt.SecurityManager securityManager(){
 		DefaultWebSecurityManager securityManager =  new DefaultWebSecurityManager();
+
 		securityManager.setRealm(myShiroRealm());
+
+		securityManager.setCacheManager(new ShiroRedisCacheManager(redisTemplate));
+
+		securityManager.setSessionManager(sessionManager());
+		SecurityUtils.setSecurityManager(securityManager);
 		return securityManager;
 	}
+
+
+	/**
+	 * shiro session的管理
+	 */
+	public DefaultWebSessionManager sessionManager() {
+		DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
+		// 设置session超时时间，单位为毫秒
+		sessionManager.setGlobalSessionTimeout(36000);
+		// session的id名称
+		sessionManager.setSessionIdCookie(new SimpleCookie("wtm.session.id"));
+
+		// 网上各种说要自定义sessionDAO 其实完全不必要，shiro自己就自定义了一个，可以直接使用，还有其他的DAO，自行查看源码即可
+		sessionManager.setSessionDAO(new EnterpriseCacheSessionDAO());
+		return sessionManager;
+	}
+
+
 
 	/**
 	 *  开启shiro aop注解支持.
@@ -98,4 +142,5 @@ public class ShiroConfig {
 		//r.setWarnLogCategory("example.MvcLogger");     // No default
 		return r;
 	}
+
 }
